@@ -1,0 +1,22 @@
+
+.toolbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.toolbar button, .toolbar label {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.toolbar button:hover, .toolbar label:hover {
+  background-color: #777;
+}
+

@@ -1,0 +1,23 @@
+/* Basic styling for the litegraph canvas */
+.litegraph-canvas {
+    border: 1px solid #2c2c2c;
+    background-color: #1e1e1e;
+}
+
+.lgraph-node {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    color: #eee;
+}
+
+.lgraph-node.selected {
+    border-color: #fff;
+}
+
+.graph-canvas {
+
+}
+
+.lgraph-node .ltitle {
+    font-size: 12px; /* Adjust font size as needed */
+}
